@@ -7,7 +7,8 @@ from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
 import pyspark.sql.functions as F
 
-Weblog_dir = os.getcwd()
+# Globle variables
+Weblog_dir = os.getcwd()  # direction of Weblog stored
 CSV_saved_dir = os.getcwd()
 CSV_folder_name = "CSV_data"
 
